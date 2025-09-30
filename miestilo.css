@@ -1,0 +1,93 @@
+/* ✅ Estilo a la cabecera */
+header {
+    background-color: rgba(255, 182, 193, 0.7);
+    /* rosa claro */
+    padding: 1%;
+    text-align: center;
+    border-top: 10px solid #f48ac2;
+    /* rosa fuerte */
+    border-bottom: 10px solid #f06292;
+    /* rosa medio */
+    color: #880e4f;
+    /* rosa oscuro para texto */
+}
+
+/* ✅ Estilo a la imagen */
+.imagen-inline {
+    width: 155px;
+    height: auto;
+    float: right;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+/* ✅ Barra de navegación */
+.navbar ul {
+    background-color: rgba(255, 192, 203, 0.5);
+    /* rosa pálido */
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+/* ✅ Botones de navegación */
+.btn-nav {
+    background-color: #f8a9d4;
+    /* rosa claro */
+    color: #880e4f;
+    /* texto en rosa oscuro */
+    border: 1px solid #ec407a;
+    /* borde rosa fuerte */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ✅ Hover de botones */
+.btn-nav:hover {
+    background-color: #f06292;
+    /* rosa más intenso */
+    color: white;
+}
+
+/* ✅ Estructura del contenido */
+.contenedor {
+    display: flex;
+    width: 100vw;
+}
+
+/* ✅ Artículo */
+.articulo {
+    background-color: rgba(255, 182, 193, 0.2);
+    /* fondo suave rosado */
+    flex: 3;
+    padding: 20px;
+}
+
+/* ✅ Pie de página */
+.pie {
+    background-color: #f48fb1;
+    /* fondo rosa fuerte */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ✅ Propaganda / barra lateral */
+.propaganda {
+    background-color: rgba(255, 105, 180, 0.3);
+    /* hot pink claro */
+    flex: 1;
+    padding: 10px;
+}
+
+/* ✅ Reset de margen del body */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #fff0f5;
+    /* fondo general rosado muy claro (lavender blush) */
+}
